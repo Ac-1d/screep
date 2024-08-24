@@ -1,0 +1,11 @@
+(method) Room.createConstructionSite(x: number, y: number, structureType: BuildableStructureConstant): ScreepsReturnCode (+3 overloads)
+
+Create new ConstructionSite at the specified location.
+
+@param x — The X position.
+
+@param y — The Y position.
+
+@param structureType — One of the following constants: STRUCTURE_EXTENSION, STRUCTURE_RAMPART, STRUCTURE_ROAD, STRUCTURE_SPAWN, STRUCTURE_WALL, STRUCTURE_LINK
+
+@returns — Result Code: OK, ERR_INVALID_TARGET, ERR_INVALID_ARGS, ERR_RCL_NOT_ENOUGH
